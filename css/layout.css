@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cards {
+  height: 500px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 20%;
+  height: 20%;
+  line-height: 100%;
+
+  text-align: center;
+  float: left;
+
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
