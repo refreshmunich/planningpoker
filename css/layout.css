@@ -1,45 +1,52 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .cards {
-  border: 1px solid red;
-  height: 500px;
-  padding-top: 20px;
+    border: 1px solid red;
+    height: 500px;
+    padding-top: 20px;
 }
 
 .card {
-  border: 1px solid #ccc;
-  width: 20%;
-  height: 100px;
-  line-height: 100%;
+    border: 1px solid #ccc;
+    width: 20%;
+    height: 100px;
+    line-height: 100%;
 
-  text-align: center;
-  font-size: 3em;
-  background-color: #ccc;
-  float: left;
+    text-align: center;
+    font-size: 3em;
+    background-color: #ccc;
+    float: left;
 
-  margin-left: 4%;
-  margin-bottom: 20px;
+    margin-left: 4%;
+    margin-bottom: 20px;
 
-  transition: width .8s ease;
-  transition: height .8s ease;
+    transition: width .2s ease, height .2s ease;
 }
 
 .card:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: -0.25em;
 }
 
 .card .card-wrapper {
     display: inline-block;
     vertical-align: middle;
+}
+
+.card:hover {
+    background-color: #ccc;
+    width: 92%;
+    height: 460px;
+    position: fixed;
+    top: 20px;
 }
