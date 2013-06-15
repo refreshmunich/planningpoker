@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #222;
 }
 
 * {
@@ -8,24 +9,21 @@ body {
 }
 
 .cards {
-    border: 1px solid red;
     height: 500px;
     padding-top: 20px;
 }
 
 .card {
-    border: 1px solid #ccc;
+    float: left;
     width: 20%;
     height: 100px;
-    line-height: 100%;
-
-    text-align: center;
-    font-size: 3em;
-    background-color: #ccc;
-    float: left;
-
     margin-left: 4%;
     margin-bottom: 20px;
+    background-color: #fff;
+
+    line-height: 100%;
+    text-align: center;
+    font-size: 3em;
 
     transition: width .2s ease, height .2s ease;
 }
