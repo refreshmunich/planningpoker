@@ -1,0 +1,18 @@
+            .card{
+                text-align: center;
+                border-radius: 3px;
+                font-family:'Helvetica',Verdana;
+                font-weight:200;
+                font-size:3em;
+            }
+            .cardBack{
+                border-radius: 3px;
+                background-image: 
+                radial-gradient(circle at 100% 150%, #5b5b5b 24%, #444444 25%, #444444 28%, #5b5b5b 29%, #5b5b5b 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+                radial-gradient(circle at 0    150%, #5b5b5b 24%, #444444 25%, #444444 28%, #5b5b5b 29%, #5b5b5b 36%, #444444 36%, #444444 40%, transparent 40%, transparent),
+                radial-gradient(circle at 50%  100%, #444444 10%, #5b5b5b 11%, #5b5b5b 23%, #444444 24%, #444444 30%, #5b5b5b 31%, #5b5b5b 43%, #444444 44%, #444444 50%, #5b5b5b 51%, #5b5b5b 63%, #444444 64%, #444444 71%, transparent 71%, transparent),
+                radial-gradient(circle at 100% 50%, #444444 5%, #5b5b5b 6%, #5b5b5b 15%, #444444 16%, #444444 20%, #5b5b5b 21%, #5b5b5b 30%, #444444 31%, #444444 35%, #5b5b5b 36%, #5b5b5b 45%, #444444 46%, #444444 49%, transparent 50%, transparent),
+                radial-gradient(circle at 0    50%, #444444 5%, #5b5b5b 6%, #5b5b5b 15%, #444444 16%, #444444 20%, #5b5b5b 21%, #5b5b5b 30%, #444444 31%, #444444 35%, #5b5b5b 36%, #5b5b5b 45%, #444444 46%, #444444 49%, transparent 50%, transparent);
+                background-size:100px 50px;
+                float:left;
+            }
