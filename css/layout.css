@@ -39,6 +39,13 @@ html, body {
   vertical-align: middle;
 }
 
+.card:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 .card .card-wrapper {
     display: inline-block;
     vertical-align: middle;
