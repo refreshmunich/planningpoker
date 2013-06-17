@@ -15,4 +15,12 @@
                 radial-gradient(circle at 0    50%, #444444 5%, #5b5b5b 6%, #5b5b5b 15%, #444444 16%, #444444 20%, #5b5b5b 21%, #5b5b5b 30%, #444444 31%, #444444 35%, #5b5b5b 36%, #5b5b5b 45%, #444444 46%, #444444 49%, transparent 50%, transparent);
                 background-size:100px 50px;
                 float:left;
+            }            }
+            .card-visual .card-front {
+                /*Hide the default text*/
+                visibility:hidden;
+            }
+            .card-break {
+                background:url(../images/refresh_cup.svg) no-repeat center center;
+                background-size:contain;
             }
