@@ -1,9 +1,7 @@
             .card{
                 text-align: center;
-                border-radius: 3px;
-                font-family:'Helvetica',Verdana;
-                font-weight:200;
-                font-size:3em;
+                border-radius: 5px;
+                font-family:'Pathway Gothic One',Verdana, sans-serif;
                 color:white;
             }
             .cardBack{
@@ -17,11 +15,7 @@
                 background-size:100px 50px;
                 float:left;
             }
-            .card-visual .card-front {
-                /*Hide the default text*/
-                visibility:hidden;
-            }
-            .card-break {
-                background:url(../images/refresh_cup.svg) no-repeat center center;
+            .card-break .card-front {
+                background:blue url(../images/refresh_cup.svg) no-repeat center center;
                 background-size:contain;
             }
